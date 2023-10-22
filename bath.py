@@ -5,6 +5,7 @@ import argparse
 import numpy as np
 from matplotlib.ticker import FuncFormatter
 
+
 class BATH_FITTING:
 	def __init__(self, file_path, Hamil, Bnum):
 		self.H = Hamil;
